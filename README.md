@@ -6,11 +6,8 @@ The organization is planned to be officially established in June 2026. This proj
 ## Live Demo
 https://venus-sp.github.io/KRI-Website/
 
-Preview  
-![Website Screenshot](images/screenshot.png)
-
 ## Role
-Personal Front-End Project
+Personal Front-End Project (Beginner)
 
 ## Features
 - Navigation menu
@@ -39,7 +36,13 @@ Personal Front-End Project
 - Database for members & events  
 
 ## Current Status
-Prototype project. Login system and search functionality are not yet implemented.
+Prototype project. Login system and search functionality are planned but not yet implemented.
 
+## Preview  
+
+![Website Screenshot](images/screenshot.png)
+
+
+## License
 © 2026 Kababaihang Rizalista Berlin Chapter.  
-All text, branding, and cultural content are protected and may not be reused or redistributed without permission.
+Source code is licensed under the MIT License. All brand content is protected and not for reuse without permission.
