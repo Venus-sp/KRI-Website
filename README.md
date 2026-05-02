@@ -6,6 +6,9 @@ The organization is planned to be officially established in June 2026. This proj
 ## Live Demo
 https://venus-sp.github.io/KRI-Website/
 
+Preview  
+![Website Screenshot](images/screenshot.png)
+
 ## Role
 Personal Front-End Project
 
