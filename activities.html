@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activities</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-offset">
+
+<header class="top-bar">
+  <div class="logo-small">KR inc.</div>
+
+  <div class="top-right">
+    <span class="search-icon">🔍</span>
+    <a href="#" class="login-btn" onclick="openLogin()">Log in</a>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </div>
+</header>
+
+<main>
+
+<div id="sideMenu" class="side-menu">
+
+  <a href="index.html">Home</a>
+  <a href="index.html#about">About</a>
+  <a href="index.html#mission">Mission</a>
+  <a href="index.html#vision">Vision</a>
+  <a href="index.html#history">History</a>
+  
+  <a href="activities.html">Activities</a>
+  <a href="projects.html">Projects</a>
+  
+  <a href="index.html#contact">Contact</a>
+  
+</div>
+
+<section class="section">
+  <h2>Activities</h2>
+
+  <div class="activity-card" onclick="toggleAccordion(this)" tabindex="0">
+  <h3>Workshops</h3>
+
+  <div class="activity-info">
+    No upcoming Activities at the moment.
+  </div>
+</div>
+
+<div class="activity-card" onclick="toggleAccordion(this)" tabindex="0">
+  <h3>Outreach Programs</h3>
+
+  <div class="activity-info">
+    No upcoming Programs at the moment.
+  </div>
+</div>
+
+<div class="activity-card" onclick="toggleAccordion(this)" tabindex="0">
+  <h3>Cultural Events</h3>
+
+  <div class="activity-info">
+    No upcoming Events at the moment.
+  </div>
+</div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+<footer>
+	<p>© 2026 Kababaihang Rizalista | All Rights Reserved</p>
+</footer>
+
+<div id="loginModal" class="login-modal">
+  <div class="login-box">
+    <h2>Log In</h2>
+    <p>Log in feature coming soon</p>
+    <button onclick="closeLogin()">Close</button>
+  </div>
+</div>
+
+</body>
+</html>
